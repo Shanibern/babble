@@ -1,0 +1,24 @@
+header {
+    background-color: #353744;
+}
+
+.sidebar {
+    background-color: #61d290;
+    width: 18%;
+    float: left;
+}
+
+.container {
+    float: none;
+    width: 82%;
+}
+
+.info, .chat {
+    background-color: #f6f6f6;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
